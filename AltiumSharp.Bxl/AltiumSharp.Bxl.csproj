@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <RootNamespace>AltiumSharp.Bxl</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Reference Include="AltiumSharp">
+      <HintPath>..\..\AltiumSharp\AltiumSharp\bin\Release\netstandard2.0\AltiumSharp.dll</HintPath>
+    </Reference>
+    <Reference Include="BxlSharp">
+      <HintPath>..\..\BxlSharp\BxlSharp\bin\Release\netstandard2.0\BxlSharp.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
