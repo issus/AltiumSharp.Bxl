@@ -6,12 +6,8 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Reference Include="AltiumSharp">
-      <HintPath>..\..\AltiumSharp\AltiumSharp\bin\Release\netstandard2.0\AltiumSharp.dll</HintPath>
-    </Reference>
-    <Reference Include="BxlSharp">
-      <HintPath>..\..\BxlSharp\BxlSharp\bin\Release\netstandard2.0\BxlSharp.dll</HintPath>
-    </Reference>
+    <ProjectReference Include="..\..\AltiumSharp\AltiumSharp\AltiumSharp.csproj" />
+    <ProjectReference Include="..\..\BxlSharp\BxlSharp\BxlSharp.csproj" />
   </ItemGroup>
 
 </Project>
